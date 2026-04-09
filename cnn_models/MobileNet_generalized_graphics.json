@@ -1,0 +1,18 @@
+{
+  "model": "MobileNet",
+  "feature_mode": "combined_graphics",
+  "image_types": [
+    "spectrogram",
+    "mel_spectrogram",
+    "mfcc",
+    "stft"
+  ],
+  "img_size": [
+    100,
+    100
+  ],
+  "class_indices": {
+    "HC": 0,
+    "PD": 1
+  }
+}

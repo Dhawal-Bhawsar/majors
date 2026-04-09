@@ -1,0 +1,37 @@
+duration,model,accuracy,precision,recall,f1,report,confusion_matrix,model_path
+30s,KNN,0.7301587301587301,0.717687074829932,0.7301587301587301,0.7135531135531135,"              precision    recall  f1-score   support
+
+          HC       0.76      0.88      0.81        42
+          PD       0.64      0.43      0.51        21
+
+    accuracy                           0.73        63
+   macro avg       0.70      0.65      0.66        63
+weighted avg       0.72      0.73      0.71        63
+","[[37, 5], [12, 9]]",C:\Users\Lenovo\Downloads\dataset2\final_pipeline_outputs\ml_models\30s\KNN.joblib
+30s,SVM,0.8253968253968254,0.8299319727891157,0.8253968253968254,0.8146520146520145,"              precision    recall  f1-score   support
+
+          HC       0.82      0.95      0.88        42
+          PD       0.86      0.57      0.69        21
+
+    accuracy                           0.83        63
+   macro avg       0.84      0.76      0.78        63
+weighted avg       0.83      0.83      0.81        63
+","[[40, 2], [9, 12]]",C:\Users\Lenovo\Downloads\dataset2\final_pipeline_outputs\ml_models\30s\SVM.joblib
+30s,DT,0.6349206349206349,0.6306201550387597,0.6349206349206349,0.6326159732185557,"              precision    recall  f1-score   support
+
+          HC       0.72      0.74      0.73        42
+          PD       0.45      0.43      0.44        21
+
+    accuracy                           0.63        63
+   macro avg       0.59      0.58      0.58        63
+weighted avg       0.63      0.63      0.63        63
+","[[31, 11], [12, 9]]",C:\Users\Lenovo\Downloads\dataset2\final_pipeline_outputs\ml_models\30s\DT.joblib
+30s,NB,0.7301587301587301,0.7222222222222222,0.7301587301587301,0.7244326554671383,"              precision    recall  f1-score   support
+
+          HC       0.78      0.83      0.80        42
+          PD       0.61      0.52      0.56        21
+
+    accuracy                           0.73        63
+   macro avg       0.69      0.68      0.68        63
+weighted avg       0.72      0.73      0.72        63
+","[[35, 7], [10, 11]]",C:\Users\Lenovo\Downloads\dataset2\final_pipeline_outputs\ml_models\30s\NB.joblib
